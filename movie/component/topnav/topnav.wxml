@@ -1,0 +1,4 @@
+<!--component/topnav/topnav.wxml-->
+<view class='top'>
+  <text>{{title}}</text>
+</view>

@@ -1,0 +1,13 @@
+<top-nav title="电影详情"></top-nav>
+<view class='return'catchtap="fn">＜</view>
+<view class="bg"  style='background:url({{info.image}})no-repeat;background-size:100% 100%; '>
+  <view class='shade'>
+    <image src="{{info.image}}"></image>
+    <view class='imgShade'></view>
+    <view class='title'>{{info.title}}</view>
+    <view class='score'>评分：{{info.rating.average}}</view>
+    <view class='pl'>导演：{{info.attrs.director}}</view>
+    <view class='act'>主演：{{info.attrs.cast}}</view>
+  </view>
+</view>
+
